@@ -3,7 +3,43 @@
   background-color:maroon;
   font-size: 100px;
   text-align: center;
+  border-radius: 10px;
 }
+
+.accomplishments{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.accomplishments-left{
+  text-align: left;
+  color: rgb( 108, 63, 25);
+  }
+
+.accomplishments-mid{
+  text-align: center;
+  color: rgb( 108, 63, 25);
+}
+
+#circular-image{
+  border-radius: 50%;
+}
+
+a:hover{
+  color: red;
+}
+
+.accomplishments-right{
+  text-align: right;
+  color: rgb( 108, 63, 25);
+}
+
+li{
+  font-size: 20px;
+  color: maroon;
+}
+
+
 
 img{
   height: 100px;
@@ -14,6 +50,7 @@ body{
   background-color: rgb(13.3%, 54.5%, 13.3%);
   margin:0;
   padding:0;
+
   
 }
 .slidershow{
